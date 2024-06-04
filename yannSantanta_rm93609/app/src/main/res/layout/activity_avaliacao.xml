@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView_integrante1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yann Santana 93609"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView_integrante2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daniel Marques 95175"
+        android:layout_below="@id/textView_integrante1"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView_integrante3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ana Beatriz 96229"
+        android:layout_below="@id/textView_integrante2"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
